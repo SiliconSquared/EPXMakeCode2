@@ -1,7 +1,7 @@
 {
-    "name": "neopixel",
+    "name": "EPXDisplay",
     "version": "0.7.3",
-    "description": "AdaFruit NeoPixel driver",
+    "description": "Expressive Pixels Display driver",
     "license": "MIT",
     "dependencies": {
         "core": "*",
@@ -9,16 +9,7 @@
     },
     "files": [
         "README.md",
-        "neopixel.ts",
-        "_locales/ja/neopixel-strings.json",
-        "_locales/de/neopixel-strings.json",
-        "_locales/de/neopixel-jsdoc-strings.json",
-        "_locales/fr/neopixel-strings.json",
-        "_locales/fr/neopixel-jsdoc-strings.json",
-        "_locales/zh/neopixel-strings.json"
-    ],
-    "testFiles": [
-        "neotest.ts"
+        "EPXDisplay.ts",
     ],
     "public": true,
     "supportedTargets": [
